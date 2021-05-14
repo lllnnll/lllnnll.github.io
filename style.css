@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
+
+body{
+  background-color: #222222;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Indie Flower', cursive;
+}
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 5px solid white;
+}
+nav h1{
+  color: white;
+  font-family: 'Cuprum', sans-serif;
+  font-size: 35px;
+}
+nav .onglets{
+  margin-top: 3px ;
+  margin-left: 50px
+}
+nav .onglets a{
+  text-decoration: none;
+  color: rgb(211, 138, 138) ;
+  margin-right : 100px;
+  border-bottom: 0.5px solid rgb(211, 138, 138)
+};
+
+@media screen and (max-width:370px){
+  nav.onglets{
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url('https://images3.alphacoders.com/210/210105.jpg');
+  background-size: cover ;
+  color : white;
+  padding: 40px;
+  border-bottom: 5px solid white;
+}
+
+header h1{
+  font-family: 'Cuprum', sans-serif;
+  font-size: 35px;
+}
+
+
+header h4{
+  margin-top: -20px;
+  color: rgb(211, 138, 138);
+}
+
+header button{
+  padding: 10px 20px;
+  background-color:#2C2F33 ;
+  color:white;
+  border: none;
+  font-size: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.main {
+  margin: top 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .content .commande .text{
+  flex: 0 0 30%;
+  padding: 5px;
+  background-color: #2C2F33;
+  color: white;
+}
+.main .content .commande .droite{
+  flex: 0 0 70%;
+}
+.main .content .commande{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin: 50px;
+}
+.main .content .commande .droite img{
+  height: 300px;
+  width: 400px;
+  margin-top: 3px;
+}
+
+.main .content .commande .img_discord_game img{
+  height: 1034px;
+  width: 1800px;
+}
+
+footer {
+  margin-top: 40px;
+  border-top: 5px solid white;
+  background-color: #23272A;
+  color: white;
+  padding: 20px 100px;
+}
+footer h1{
+  font-family: 'Indie Flower', cursive;
+  border-bottom: 1px solid white;
+  width:15%;
+  padding-bottom: 5px ;
+}
+footer #contact{
+  color: rgb(181,181,181);
+}
